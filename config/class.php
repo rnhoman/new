@@ -10,7 +10,7 @@ class utama
     public $koneksi;
     function __construct()
     {
-        $this->koneksi= new mysqli("localhost","admin123","SandiTels010395","SQL_Latin1_General_CP1_CI_AS");
+        $this->koneksi= new mysqli("localhost","admin123","SandiTels010395","backup");
     }
 }
 
